@@ -1,0 +1,314 @@
+Orden inicial,Provincia,Barrio,Edad del jefe del hogar,Tiempo de residencia en la vivienda,Cantidad de integrantes
+1,Chaco,Chacra 136,40,20,4
+2,Chaco,Chacra 136,52,21,1
+3,Chaco,Chacra 136,45,24,4
+4,Chaco,Chacra 136,44,21,5
+5,Chaco,Chacra 136,31,1,5
+6,Chaco,Chacra 136,59,19,2
+7,Chaco,Chacra 136,45,20,6
+8,Chaco,Chacra 136,39,20,6
+9,Chaco,Chacra 136,38,18,6
+10,Chaco,Chacra 136,43,16,8
+11,Chaco,Chacra 136,55,21,3
+12,Chaco,Chacra 136,42,16,5
+13,Chaco,Chacra 136,32,8,4
+14,Chaco,Chacra 136,36,0,2
+15,Chaco,Chacra 136,29,16,3
+16,Chaco,Chacra 136,47,16,4
+17,Chaco,Chacra 136,49,15,8
+18,Chaco,Chacra 136,47,22,2
+19,Chaco,Chacra 136,48,17,6
+20,Chaco,Chacra 136,24,17,2
+21,Chaco,Chacra 136,46,20,2
+22,Chaco,Chacra 136,64,0,7
+23,Chaco,Chacra 136,39,17,4
+24,Chaco,Chacra 136,47,17,7
+25,Chaco,Chacra 136,31,20,3
+26,Chaco,Chacra 136,40,19,4
+27,Chaco,Chacra 136,51,2,3
+28,Chaco,Chacra 136,53,26,2
+29,Chaco,Chacra 136,60,10,2
+30,Chaco,Chacra 136,26,10,4
+31,Chaco,Chacra 136,37,10,5
+32,Chaco,Chacra 136,64,13,3
+33,Chaco,Chacra 136,28,5,1
+34,Chaco,Chacra 136,32,10,5
+35,Chaco,Chacra 136,46,19,4
+36,Chaco,Chacra 136,30,2,3
+37,Formosa,San Juan Bautista,22,15,2
+38,Formosa,San Juan Bautista,48,15,3
+39,Formosa,San Juan Bautista,24,11,2
+40,Formosa,San Juan Bautista,39,11,5
+41,Formosa,San Juan Bautista,33,2,6
+42,Formosa,San Juan Bautista,43,0,3
+43,Formosa,San Juan Bautista,37,37,5
+44,Formosa,San Juan Bautista,76,30,3
+45,Formosa,San Juan Bautista,34,2,2
+46,Formosa,San Juan Bautista,52,2,5
+47,Formosa,San Juan Bautista,52,1,1
+48,Formosa,San Juan Bautista,22,22,3
+49,Formosa,San Juan Bautista,39,27,1
+50,Formosa,San Juan Bautista,23,3,4
+51,Formosa,San Juan Bautista,28,5,5
+52,Formosa,San Juan Bautista,45,33,6
+53,Formosa,San Juan Bautista,23,2,3
+54,Formosa,San Juan Bautista,40,18,4
+55,Formosa,San Juan Bautista,24,2,4
+56,Formosa,San Juan Bautista,19,19,2
+57,Formosa,San Juan Bautista,28,0,2
+58,Formosa,San Juan Bautista,67,2,3
+59,Formosa,San Juan Bautista,34,22,4
+60,Formosa,San Juan Bautista,64,3,6
+61,Formosa,San Juan Bautista,57,25,2
+62,Formosa,San Juan Bautista,67,45,4
+63,Formosa,San Juan Bautista,62,36,5
+64,Formosa,San Juan Bautista,30,6,4
+65,Formosa,San Juan Bautista,64,22,4
+66,Formosa,San Juan Bautista,28,8,5
+67,Formosa,San Juan Bautista,30,6,6
+68,Formosa,San Juan Bautista,48,48,5
+69,Formosa,San Juan Bautista,23,15,5
+70,Formosa,San Juan Bautista,63,20,1
+71,Formosa,San Juan Bautista,60,3,1
+72,Formosa,San Juan Bautista,46,8,7
+73,Formosa,San Juan Bautista,58,46,5
+74,Formosa,San Juan Bautista,62,20,5
+75,Formosa,San Juan Bautista,26,4,6
+76,Formosa,San Juan Bautista,70,40,3
+77,Jujuy,28 de Septiembre,49,24,7
+78,Jujuy,28 de Septiembre,31,2,3
+79,Jujuy,28 de Septiembre,52,22,4
+80,Jujuy,28 de Septiembre,42,20,4
+81,Jujuy,28 de Septiembre,40,22,7
+82,Jujuy,28 de Septiembre,72,22,4
+83,Jujuy,28 de Septiembre,40,22,5
+84,Jujuy,28 de Septiembre,67,21,4
+85,Jujuy,28 de Septiembre,42,20,9
+86,Jujuy,28 de Septiembre,48,22,2
+87,Jujuy,28 de Septiembre,43,6,7
+88,Jujuy,28 de Septiembre,45,23,6
+89,Jujuy,28 de Septiembre,49,21,9
+90,Jujuy,28 de Septiembre,35,13,3
+91,Jujuy,28 de Septiembre,30,12,3
+92,Jujuy,28 de Septiembre,32,15,3
+93,Jujuy,28 de Septiembre,34,10,6
+94,Jujuy,28 de Septiembre,32,5,4
+95,Jujuy,28 de Septiembre,27,8,3
+96,Jujuy,28 de Septiembre,52,21,3
+97,Jujuy,28 de Septiembre,33,16,7
+98,Jujuy,28 de Septiembre,37,18,3
+99,Jujuy,28 de Septiembre,49,20,6
+100,Jujuy,28 de Septiembre,38,16,7
+101,Jujuy,28 de Septiembre,47,14,7
+102,Jujuy,28 de Septiembre,44,20,7
+103,Jujuy,28 de Septiembre,64,20,3
+104,Jujuy,28 de Septiembre,73,21,1
+105,Jujuy,28 de Septiembre,42,19,4
+106,Jujuy,28 de Septiembre,52,20,8
+107,Jujuy,28 de Septiembre,36,10,1
+108,Jujuy,28 de Septiembre,30,8,5
+109,Jujuy,28 de Septiembre,47,15,2
+110,Jujuy,28 de Septiembre,44,12,4
+111,Jujuy,28 de Septiembre,42,19,4
+112,Jujuy,28 de Septiembre,25,9,3
+113,Jujuy,28 de Septiembre,38,10,6
+114,Jujuy,28 de Septiembre,66,20,9
+115,Jujuy,28 de Septiembre,46,22,9
+116,Jujuy,28 de Septiembre,54,21,6
+117,Jujuy,28 de Septiembre,45,8,2
+118,Jujuy,28 de Septiembre,61,19,1
+119,Jujuy,28 de Septiembre,53,19,8
+120,Jujuy,28 de Septiembre,38,12,1
+121,Jujuy,28 de Septiembre,40,20,5
+122,Jujuy,28 de Septiembre,23,7,3
+123,Jujuy,28 de Septiembre,44,20,4
+124,Jujuy,28 de Septiembre,39,16,4
+125,Jujuy,28 de Septiembre,28,10,2
+126,Jujuy,28 de Septiembre,26,10,3
+127,Jujuy,28 de Septiembre,40,20,5
+128,Jujuy,28 de Septiembre,52,20,3
+129,Jujuy,28 de Septiembre,64,22,8
+130,Jujuy,28 de Septiembre,36,13,3
+131,Jujuy,28 de Septiembre,42,18,5
+132,Jujuy,28 de Septiembre,53,19,2
+133,Misiones,Villa Cabello (Chacra 159),34,34,6
+134,Misiones,Villa Cabello (Chacra 159),32,8,4
+135,Misiones,Villa Cabello (Chacra 159),32,2,3
+136,Misiones,Villa Cabello (Chacra 159),66,8,2
+137,Misiones,Villa Cabello (Chacra 159),22,8,2
+138,Misiones,Villa Cabello (Chacra 159),26,26,3
+139,Misiones,Villa Cabello (Chacra 159),30,25,6
+140,Misiones,Villa Cabello (Chacra 159),44,44,1
+141,Misiones,Villa Cabello (Chacra 159),23,18,2
+142,Misiones,Villa Cabello (Chacra 159),60,50,6
+143,Misiones,Villa Cabello (Chacra 159),30,30,5
+144,Misiones,Villa Cabello (Chacra 159),35,5,8
+145,Misiones,Villa Cabello (Chacra 159),26,15,2
+146,Misiones,Villa Cabello (Chacra 159),57,56,4
+147,Misiones,Villa Cabello (Chacra 159),53,25,7
+148,Misiones,Villa Cabello (Chacra 159),42,25,10
+149,Misiones,Villa Cabello (Chacra 159),40,25,4
+150,Misiones,Villa Cabello (Chacra 159),36,1,5
+151,Misiones,Villa Cabello (Chacra 159),19,16,2
+152,Misiones,Villa Cabello (Chacra 159),32,10,5
+153,Misiones,Villa Cabello (Chacra 159),25,18,3
+154,Misiones,Villa Cabello (Chacra 159),38,15,1
+155,Misiones,Villa Cabello (Chacra 159),64,25,2
+156,Misiones,Villa Cabello (Chacra 159),32,32,3
+157,Misiones,Villa Cabello (Chacra 159),58,34,2
+158,Misiones,Villa Cabello (Chacra 159),76,40,3
+159,Misiones,Villa Cabello (Chacra 159),21,2,1
+160,Misiones,Villa Cabello (Chacra 159),65,40,2
+161,Misiones,Villa Cabello (Chacra 159),23,18,4
+162,Misiones,Villa Cabello (Chacra 159),38,35,3
+163,Misiones,Villa Cabello (Chacra 159),21,21,2
+164,Misiones,Villa Cabello (Chacra 159),63,45,3
+165,Misiones,Villa Cabello (Chacra 159),26,7,5
+166,Misiones,Villa Cabello (Chacra 159),34,12,6
+167,Misiones,Villa Cabello (Chacra 159),80,25,2
+168,Misiones,Villa Cabello (Chacra 159),44,25,2
+169,Misiones,Villa Cabello (Chacra 159),23,12,3
+170,Misiones,Villa Cabello (Chacra 159),25,5,3
+171,Misiones,Villa Cabello (Chacra 159),21,5,2
+172,Misiones,Villa Cabello (Chacra 159),33,2,10
+173,Misiones,Villa Cabello (Chacra 159),21,1,2
+174,Misiones,Villa Cabello (Chacra 159),24,3,2
+175,Misiones,Villa Cabello (Chacra 159),33,1,2
+176,Misiones,Villa Cabello (Chacra 159),28,5,3
+177,Misiones,Villa Cabello (Chacra 159),30,2,2
+178,Misiones,Villa Cabello (Chacra 159),21,4,1
+179,Misiones,Villa Cabello (Chacra 159),45,2,3
+180,Misiones,Villa Cabello (Chacra 159),44,3,10
+181,Misiones,Villa Cabello (Chacra 159),54,20,2
+182,Misiones,Villa Cabello (Chacra 159),32,20,6
+183,Misiones,Villa Cabello (Chacra 159),48,30,3
+184,Misiones,Villa Cabello (Chacra 159),27,20,3
+185,Misiones,Villa Cabello (Chacra 159),40,15,5
+186,Misiones,Villa Cabello (Chacra 159),34,3,4
+187,Misiones,Villa Cabello (Chacra 159),65,2,2
+188,Misiones,Villa Cabello (Chacra 159),35,2,3
+189,Misiones,Villa Cabello (Chacra 159),60,3,10
+190,Misiones,Villa Cabello (Chacra 159),27,5,4
+191,Misiones,Villa Cabello (Chacra 159),47,2,10
+192,Misiones,Villa Cabello (Chacra 159),50,21,5
+193,Misiones,Villa Cabello (Chacra 159),36,3,4
+194,Misiones,Villa Cabello (Chacra 159),47,3,6
+195,Misiones,Villa Cabello (Chacra 159),51,2,5
+196,Misiones,Villa Cabello (Chacra 159),39,7,4
+197,Misiones,Villa Cabello (Chacra 159),46,7,5
+198,Misiones,Villa Cabello (Chacra 159),42,8,9
+199,Misiones,Villa Cabello (Chacra 159),26,5,3
+200,Misiones,Villa Cabello (Chacra 159),59,17,2
+201,Misiones,Villa Cabello (Chacra 159),23,16,3
+202,Misiones,Villa Cabello (Chacra 159),54,20,1
+203,Misiones,Villa Cabello (Chacra 159),51,10,4
+204,Misiones,Villa Cabello (Chacra 159),21,4,3
+205,Misiones,Villa Cabello (Chacra 159),33,9,1
+206,Misiones,Villa Cabello (Chacra 159),31,8,7
+207,Misiones,Villa Cabello (Chacra 159),19,7,4
+208,Misiones,Villa Cabello (Chacra 159),25,6,4
+209,Misiones,Villa Cabello (Chacra 159),41,6,4
+210,Misiones,Villa Cabello (Chacra 159),21,5,3
+211,Misiones,Villa Cabello (Chacra 159),38,7,4
+212,Misiones,Villa Cabello (Chacra 159),31,3,4
+213,Misiones,Villa Cabello (Chacra 159),29,3,6
+214,Misiones,Villa Cabello (Chacra 159),42,9,5
+215,Misiones,Villa Cabello (Chacra 159),53,9,4
+216,Misiones,Villa Cabello (Chacra 159),22,4,1
+217,Misiones,Villa Cabello (Chacra 159),58,15,3
+218,Misiones,Villa Cabello (Chacra 159),27,10,4
+219,Misiones,Villa Cabello (Chacra 159),24,10,3
+220,Misiones,Villa Cabello (Chacra 159),32,9,5
+221,Misiones,Villa Cabello (Chacra 159),27,4,4
+222,Misiones,Villa Cabello (Chacra 159),55,4,5
+223,Misiones,Villa Cabello (Chacra 159),45,4,1
+224,Misiones,Villa Cabello (Chacra 159),27,1,2
+225,Misiones,Villa Cabello (Chacra 159),45,10,6
+226,Misiones,Villa Cabello (Chacra 159),55,30,5
+227,Misiones,Villa Cabello (Chacra 159),25,4,3
+228,Misiones,Villa Cabello (Chacra 159),29,2,4
+229,Misiones,Villa Cabello (Chacra 159),26,3,6
+230,Misiones,Villa Cabello (Chacra 159),26,1,1
+231,Misiones,Villa Cabello (Chacra 159),56,9,2
+232,Misiones,Villa Cabello (Chacra 159),26,2,3
+233,Misiones,Villa Cabello (Chacra 159),36,10,6
+234,Misiones,Villa Cabello (Chacra 159),18,30,5
+235,Misiones,Villa Cabello (Chacra 159),20,6,3
+236,Misiones,Villa Cabello (Chacra 159),20,10,3
+237,Misiones,Villa Cabello (Chacra 159),29,10,4
+238,Misiones,Villa Cabello (Chacra 159),49,4,4
+239,Misiones,Villa Cabello (Chacra 159),48,2,3
+240,Misiones,Villa Cabello (Chacra 159),32,2,3
+241,Misiones,Villa Cabello (Chacra 159),88,29,2
+242,Santiago,Bosco II,45,20,3
+243,Santiago,Bosco II,34,13,4
+244,Santiago,Bosco II,27,27,3
+245,Santiago,Bosco II,42,32,3
+246,Santiago,Bosco II,34,20,5
+247,Santiago,Bosco II,29,14,4
+248,Santiago,Bosco II,37,37,2
+249,Santiago,Bosco II,57,15,7
+250,Santiago,Bosco II,52,35,6
+251,Santiago,Bosco II,52,32,3
+252,Santiago,Bosco II,36,25,8
+253,Santiago,Bosco II,64,20,10
+254,Santiago,Bosco II,60,50,10
+255,Santiago,Bosco II,70,33,1
+256,Santiago,Bosco II,70,70,10
+257,Santiago,Bosco II,33,31,10
+258,Santiago,Bosco II,33,33,3
+259,Santiago,Bosco II,40,15,4
+260,Santiago,Bosco II,35,18,5
+261,Santiago,Bosco II,29,10,4
+262,Santiago,Bosco II,51,15,4
+263,Santiago,Bosco II,41,17,5
+264,Santiago,Bosco II,61,20,9
+265,Santiago,Bosco II,28,15,5
+266,Santiago,Bosco II,35,35,9
+267,Santiago,Bosco II,40,10,10
+268,Santiago,Bosco II,49,30,7
+269,Santiago,Bosco II,37,20,6
+270,Santiago,Bosco II,32,7,4
+271,Santiago,Bosco II,29,10,8
+272,Santiago,Bosco II,53,38,6
+273,Santiago,Bosco II,58,30,3
+274,Tucumán,11 de Enero,34,3,2
+275,Tucumán,11 de Enero,33,5,5
+276,Tucumán,11 de Enero,47,15,3
+277,Tucumán,11 de Enero,30,1,4
+278,Tucumán,11 de Enero,35,14,7
+279,Tucumán,11 de Enero,28,13,7
+280,Tucumán,11 de Enero,49,12,4
+281,Tucumán,11 de Enero,45,6,5
+282,Tucumán,11 de Enero,39,13,8
+283,Tucumán,11 de Enero,40,11,5
+284,Tucumán,11 de Enero,59,10,6
+285,Tucumán,11 de Enero,42,8,7
+286,Tucumán,11 de Enero,36,12,4
+287,Tucumán,11 de Enero,26,7,3
+288,Tucumán,11 de Enero,47,10,5
+289,Tucumán,11 de Enero,28,15,7
+290,Tucumán,11 de Enero,48,13,4
+291,Tucumán,11 de Enero,48,12,3
+292,Tucumán,11 de Enero,34,1,5
+293,Tucumán,11 de Enero,24,15,4
+294,Tucumán,11 de Enero,41,10,9
+295,Tucumán,11 de Enero,21,13,10
+296,Tucumán,11 de Enero,34,4,7
+297,Tucumán,11 de Enero,22,7,3
+298,Tucumán,11 de Enero,35,17,4
+299,Tucumán,11 de Enero,36,10,6
+300,Tucumán,11 de Enero,33,11,7
+301,Tucumán,11 de Enero,28,5,5
+302,Tucumán,11 de Enero,35,10,4
+303,Tucumán,11 de Enero,42,13,6
+304,Tucumán,11 de Enero,37,17,7
+305,Tucumán,11 de Enero,29,8,4
+306,Tucumán,11 de Enero,49,18,6
+307,Tucumán,11 de Enero,40,10,7
+308,Tucumán,11 de Enero,30,9,5
+309,Tucumán,11 de Enero,28,4,2
+310,Tucumán,11 de Enero,25,6,3
+311,Tucumán,11 de Enero,45,12,10
+312,Tucumán,11 de Enero,38,111,5
+313,Tucumán,11 de Enero,48,15,6
