@@ -13,7 +13,7 @@ datos_csv <- read.csv(path_csv)
 
 attach(datos_csv)
 
-fuente = "Fuente: Observatorio villero"
+fuente = "Fuente: Observatorio Villero, 2022"
 
 #Propiedad de la vivienda con Grafico de barras 
 frecuencias1 <- table(El.lugar.que.habitan.es.)
