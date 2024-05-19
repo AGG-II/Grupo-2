@@ -27,11 +27,28 @@ tabla_resumen <- data.frame(Propiedad_de_la_vivienda = names(frecuencias1), Frec
 print(tabla_resumen)
 
 #Existencia de contrato de alquiler firmado con Grafico de sectores circulares 
-'''
-par(mar = c(2, 2, 2, 2), cex = 0.7)
-grafico_torta <- pie(x = xA, labels = porcentajes, clockwise = FALSE, main = "PRINCIPAL SIGNO VISIBLE EN PACIENTES CON ANOREXIA\nARGENTINA, OCTUBRE 2012")
-mtext(text = fuente, side = 1, line = 0, adj = 0, cex = 0.5)
-'''
+datos2 <- datos_csv$Cantidad.de.integrantes
+frecuencias <- table(datos2)
+grafico2 <-plot(frecuencias,
+                type = "h", 
+                main = "CANTIDAD DE INTEGRANTES POR VIVIENDA\nNORTE DE ARGENTINA, 2022",
+                xlab = "Cantidad de integrantes en la vivienda",
+                ylab = "Frecuencia",
+                xaxt = "n",
+                yaxt = "n",
+                col = "purple")
+
+grafico2 <-mtext("Fuente: Observatorio villero",
+                 side = 1,
+                 line = 4, 
+                 at = NA,
+                 adj = 0,
+                 cex = NA)
+
+y_vals <- pretty(table(datos2))
+axis(1, at = seq(floor(min(datos2)), ceiling(max(datos2)), by = 1))
+axis(2, at = seq(min(y_vals), max(y_vals), by = 1), las = 1)
+
 
 #Costo actual del alquiler con Histograma
 costo_alquiler<- Costo.actual
@@ -40,6 +57,3 @@ grafico1 <-mtext(fuente,side = 1,line = 4, at = NA,adj = 0,cex = NA)
 axis(1, at = seq(floor(min(data1)), ceiling(max(data1)), by = 1))
 y_vals <- pretty(table(data1))
 axis(2, at = seq(min(y_vals), max(y_vals), by = 1))
-
-
-#Porcentaje de aumento del alquiler el último año con Histograma
