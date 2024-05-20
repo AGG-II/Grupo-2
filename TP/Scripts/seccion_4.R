@@ -21,7 +21,7 @@ indices_ordenados <- order(frecuencias1, decreasing = TRUE)
 frecuencias1 <- frecuencias1[rev(indices_ordenados)] # confirmar esto
 names(frecuencias1) <- rev(c("Prop. sin tít.", "Prop. con comprob.", "Tomado", "Otro", "Prestado", "Alquilado"))
 
-grafico3 <- barplot(frecuencias1, main = "PROPIEDAD DE LA VIVIENDA\nNORTE DE ARGENTINA, 2022", ylab = "Propiedad sobre la vivienda", xlab = "Frecuencia",col = "lightblue", horiz = TRUE)
+grafico3 <- barplot(frecuencias1, main = "PROPIEDAD DE LA VIVIENDA EN BARRIOS POPULARES\nNORTE DE ARGENTINA, 2022", ylab = "Propiedad sobre la vivienda", xlab = "Frecuencia",col = "lightblue", horiz = TRUE)
 grafico3 <-mtext(fuente,side = 1,line = 4, at = NA,adj = 0,cex = NA)
 tabla_resumen <- data.frame(Propiedad_de_la_vivienda = names(frecuencias1), Frecuencia = as.numeric(frecuencias1))
 print(tabla_resumen)

@@ -30,7 +30,7 @@ grafico_red <- pie(x = frecuencias1,
                       labels = porcentajes, 
                       clockwise = FALSE, 
                       col = c("lightblue", "lightgreen", "pink", "purple"),
-                      main = "TIPO DE CONEXIÓN A LA RED ELÉCTRICA\nNORTE DE ARGENTINA, 2022")
+                      main = "TIPO DE CONEXIÓN A LA RED ELÉCTRICA EN BARRIOS POPULARES\nNORTE DE ARGENTINA, 2022")
 
 grafico_red <- mtext("Fuente: Observatorio Villero, 2022",
                  side = 1,

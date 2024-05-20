@@ -15,9 +15,9 @@ frecuencias1 <- table(datos2)
 frecuencias1 <- rev(frecuencias1)
 
 grafico3 <- barplot(frecuencias1, 
-                    main = "INTENSIDAD DE LA PRESIÓN DE AGUA\nNORTE DE ARGENTINA, 2022",
+                    main = "INTENSIDAD DE LA PRESIÓN DE AGUA EN BARRIOS POPULARES\nNORTE DE ARGENTINA, 2022",
                     xlab = "Intensidad en la presión de agua", 
-                    ylab = "Frecuencia",
+                    ylab = "Cantidad de viviendas",
                     yaxt = "n",
                     col = "lightblue")
 
