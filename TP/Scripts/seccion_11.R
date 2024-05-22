@@ -26,14 +26,6 @@ fuente = "Fuente: Observatorio Villero, 2022"
 datos1 <- datos_csv$Basurales.cerca
 frecuencias1 <- table(datos1)
 
-datos2 <- datos2_csv$X.Cuáles.plagas.
-frecuencias2 <- table(datos2)
-datos3 <- datos2_csv$...4
-frecuencias3 <- table(datos3)
-datos4 <- datos2_csv$...5
-frecuencias4 <- table(datos4)
-vector <- c(frecuencias2, frecuencias3, frecuencias4)
-
 datos5 <- datos2_csv$Plagas
 frecuencias5 <- table(datos5)
 # Proporciones
@@ -44,14 +36,16 @@ round(proporciones, 2)
 data <- data.frame(distancia = datos1, plagas = datos5)
 tabla_contingencia <- table(data$distancia, data$plagas)
 matriz <- as.matrix(tabla_contingencia)
+matriz[c(1, 3), ] <- matriz[c(3, 1), ]
+matriz[, c(1, 2)] <- matriz[, c(2, 1)]
 matriz <- prop.table(matriz, margin = 1) * 100
 matriz <- round(matriz, 2)
 
-rownames(matriz)[1] <- "A más de 2 km"
+rownames(matriz)[3] <- "A más de 2 km"
 rownames(matriz)[2] <- "Entre 500 m y 2 km"
-rownames(matriz)[3] <- "A menos de 500 m"
-colnames(matriz)[1] <- "No hay plagas"
-colnames(matriz)[2] <- "Sí hay plagas"
+rownames(matriz)[1] <- "A menos de 500 m"
+colnames(matriz)[1] <- "Con plagas"
+colnames(matriz)[2] <- "Sin plagas"
 
 par(mar = c(5, 4, 4, 8), xpd = TRUE)
 grafico3 <- barplot(t(matriz),
@@ -61,7 +55,7 @@ grafico3 <- barplot(t(matriz),
                     ylab = "Porcentaje de viviendas",
                     yaxt = "n",
                     legend.text = FALSE, 
-                    col = c("lightblue", "lightgreen"))
+                    col = c("lightgreen", "lightblue"))
 
 grafico3 <-mtext("Fuente: Observatorio Villero, 2022",
                  side = 1,
@@ -70,9 +64,13 @@ grafico3 <-mtext("Fuente: Observatorio Villero, 2022",
                  adj = 0,
                  cex = NA)
 
-y_vals <- pretty(table(datos2))
+y_vals <- pretty(table(datos5))
 axis(2, at = seq(0, 100, by = 20), las = 1)
 
-#legend("topright", legend = colnames(matriz), fill = c("lightblue", "lightgreen"))
-legend("topright", inset = c(-0.18, 0), legend = colnames(matriz), fill = c("lightblue", "lightgreen"), cex = 0.75, text.width = 0.25)
+legend("topright", 
+       inset = c(-0.1, 0), 
+       legend = colnames(matriz), 
+       fill = c("lightgreen", "lightblue"), 
+       cex = 0.75, 
+       text.width = 0.25)
 

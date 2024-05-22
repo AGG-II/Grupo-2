@@ -5,7 +5,7 @@ path_actual <- getwd()
 path_xlsx <- file.path(path_actual, "TP", "Secciones", "xlsx", "Seccion_7.xlsx")
 seccion7 <- read_xlsx(path_xlsx)
 
-path_csv <- file.path(path_actual, "TP", "Secciones", "csv", "Seccion_7 - Hoja 7.csv")
+path_csv <- file.path(path_actual, "TP", "Secciones", "csv", "Seccion_7 - Hoja 1.csv")
 write.csv(seccion7, path_csv, row.names = TRUE)
 datos_csv <- read.csv(path_csv)
 

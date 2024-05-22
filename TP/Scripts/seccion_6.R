@@ -1,4 +1,4 @@
-library(readxlsx)
+library(readxl)
 # cargo el path actual
 path_actual <- getwd()
 #Leo los datos del archivo
@@ -10,7 +10,7 @@ write.csv(seccion7, path_csv, row.names = TRUE)
 datos_csv <- read.csv(path_csv)
 
 fuente = "Fuente: Observatorio Villero, 2022"
-datos_
+
 # Tipos de calefacción en las distintas casas
 datos <- datos_csv$X.Cuál.es.la.principal.fuente.de.energía.que.utiliza.para.calefaccionar.la.vivienda.
 frecuencias <- table(datos)
@@ -32,7 +32,7 @@ proporciones <- sort(proporciones, decreasing = TRUE)
 grafico3 <- barplot(proporciones, 
                     main = "TIPOS DE CALEFACCIÓN EN LAS VIVIENDAS EN BARRIOS POPULARES\nNORTE DE ARGENTINA, 2022",
                     xlab = "Tipos de calefacción", 
-                    ylab = "Proporción de hogares que tienen dicha calefacción",
+                    ylab = "Porcentaje de hogares",
                     #horiz = TRUE,
                     yaxt = "n",
                     las = 1,

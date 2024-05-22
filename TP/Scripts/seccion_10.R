@@ -19,19 +19,20 @@ frecuencias2 <- table(datos2)
 datos3 <- datos_csv$...5
 frecuencias3 <- table(datos3)
 
-vector <- c(frecuencias2, frecuencias1, frecuencias3)
+vector <- c(frecuencias3, frecuencias1, frecuencias2)
 # Proporciones
 total <- sum(vector)
 proporciones <- vector / total * 100
 round(proporciones, 2)
 
+par(mar = c(5, 6, 4, 8) + 0.1)
 grafico3 <- barplot(proporciones, 
                     main = "PRESENCIA DE PLAGAS EN LAS VIVIENDAS EN BARRIOS POPULARES\nNORTE DE ARGENTINA, 2022",
-                    xlab = "Plagas presentes en las viviendas", 
-                    ylab = "Porcentaje de hogares que presentan una plaga",
-                    #horiz = TRUE,
-                    yaxt = "n",
-                    las = 1,
+                    ylab = "Plagas presentes en las viviendas",
+                    xlab = "Porcentaje de hogares",
+                    horiz = TRUE,
+                    xaxt = "n",
+                    #las = 2,
                     col = "lightblue")
 
 grafico3 <-mtext("Fuente: Observatorio Villero, 2022",
@@ -42,5 +43,5 @@ grafico3 <-mtext("Fuente: Observatorio Villero, 2022",
                  cex = NA)
 
 y_vals <- pretty(table(datos2))
-axis(2, at = seq(0, 50, by = 5), las = 1)
+axis(1, at = seq(0, 45, by = 5), las = 1)
 

@@ -36,7 +36,7 @@ axis(2, at = seq(0, 140, by = 5), las = 1)
 total <- sum(frecuencias1)
 proporciones <- frecuencias1 / total * 100
 
-
+# Compra de agua embotellada con gráfico de sectores circulares
 
 datos1 <- datos_csv$Compra.agua.embotellada
 frecuencias2 <- table(datos1)
@@ -55,7 +55,7 @@ par(mar = c(2, 2, 2, 2), cex = 0.7)
 grafico_red <- pie(x = frecuencias2, 
                    labels = porcentajes, 
                    clockwise = FALSE, 
-                   col = c("lightblue","purple"),
+                   col = c("lightblue","lightgreen"),
                    main = "COMPRA DE AGUA EMBOTELLADA EN BARRIOS POPULARES\nNORTE DE ARGENTINA, 2022")
 
 grafico_red <- mtext("Fuente: Observatorio Villero, 2022",
@@ -64,6 +64,8 @@ grafico_red <- mtext("Fuente: Observatorio Villero, 2022",
                      at = NA,
                      adj = 0,
                      cex = NA)
+
+# Capacidad de almacenamiento de agua en altura con gráfico de barras
 
 datos3 <- datos_csv$Litros.del.tanque
 
@@ -78,14 +80,15 @@ frecuencias_df$Value <- factor(frecuencias_df$Value, levels = custom_order)
 ordered_frecuencias_df <- frecuencias_df[order(frecuencias_df$Value), ]
 ordered_frecuencias_df <- rev(ordered_frecuencias_df)
 
-grafico4 <- barplot(ordered_frecuencias_df$Frequency, 
+par(mar = c(5, 4, 4, 8))
+grafico4 <- barplot(rev(ordered_frecuencias_df$Frequency), 
                     names.arg = ordered_frecuencias_df$Value, 
                     main = "CAPACIDAD DE ALMACENAMIENTO DE AGUA (EN ALTURA) EN BARRIOS POPULARES\nNORTE DE ARGENTINA, 2022",
-                    xlab = "Cantidad de viviendas", 
-                    ylab = "Capacidad de almacenamiento",
-                    xaxt = "n",
-                    col = "lightblue",
-                    horiz = T)
+                    ylab = "Cantidad de viviendas", 
+                    xlab = "Capacidad de almacenamiento",
+                    yaxt = "n",
+                    col = "lightblue")
+                    #horiz = T)
 
 grafico4 <-mtext("Fuente: Observatorio Villero, 2022",
                  side = 1,
@@ -94,7 +97,7 @@ grafico4 <-mtext("Fuente: Observatorio Villero, 2022",
                  adj = 0,
                  cex = NA)
 
-axis(1, at = seq(0, 60, by = 1))
+axis(2, at = seq(0, 60, by = 1))
 
 # Modo: 200 a 500 lts
 # Proporciones (Sin contar los que  no tienen tanque de agua)
