@@ -25,16 +25,17 @@ total <- sum(vector)
 proporciones <- vector / total * 100
 round(proporciones, 2)
 
-par(mar = c(5, 6, 4, 8) + 0.1)
+par(mar = c(5, 8, 4, 8) + 0.1)
 grafico3 <- barplot(proporciones, 
                     main = "PRESENCIA DE PLAGAS EN LAS VIVIENDAS EN BARRIOS POPULARES\nNORTE DE ARGENTINA, 2022",
-                    ylab = "Plagas presentes en las viviendas",
+                    #ylab = "Plagas presentes en las viviendas",
                     xlab = "Porcentaje de hogares",
                     horiz = TRUE,
                     xaxt = "n",
-                    #las = 2,
+                    las = 1,
                     col = "lightblue")
 
+title(ylab="Plagas presentes en las viviendas", line=6, cex.lab=1.2)
 grafico3 <-mtext("Fuente: Observatorio Villero, 2022",
                  side = 1,
                  line = 4,

@@ -74,21 +74,20 @@ frecuencias3 <- table(datos3_filtrado)
 frecuencias_df <- as.data.frame(frecuencias3)
 
 colnames(frecuencias_df) <- c("Value", "Frequency")
-custom_order <- c("Más de 500 lts", "200 a 500 lts","Menos de 200 lts") 
+custom_order <- c("Menos de 200 lts", "200 a 500 lts", "Más de 500 lts") 
 custom_order <- custom_order[custom_order %in% frecuencias_df$Value]
 frecuencias_df$Value <- factor(frecuencias_df$Value, levels = custom_order)
 ordered_frecuencias_df <- frecuencias_df[order(frecuencias_df$Value), ]
-ordered_frecuencias_df <- rev(ordered_frecuencias_df)
+#ordered_frecuencias_df <- rev(ordered_frecuencias_df)
 
-par(mar = c(5, 4, 4, 8))
-grafico4 <- barplot(rev(ordered_frecuencias_df$Frequency), 
+grafico4 <- barplot(ordered_frecuencias_df$Frequency, 
                     names.arg = ordered_frecuencias_df$Value, 
                     main = "CAPACIDAD DE ALMACENAMIENTO DE AGUA (EN ALTURA) EN BARRIOS POPULARES\nNORTE DE ARGENTINA, 2022",
                     ylab = "Cantidad de viviendas", 
                     xlab = "Capacidad de almacenamiento",
                     yaxt = "n",
-                    col = "lightblue")
-                    #horiz = T)
+                    col = "lightblue",
+                    horiz = F)
 
 grafico4 <-mtext("Fuente: Observatorio Villero, 2022",
                  side = 1,
@@ -97,7 +96,7 @@ grafico4 <-mtext("Fuente: Observatorio Villero, 2022",
                  adj = 0,
                  cex = NA)
 
-axis(2, at = seq(0, 60, by = 1))
+axis(2, at = seq(0, 60, by = 5))
 
 # Modo: 200 a 500 lts
 # Proporciones (Sin contar los que  no tienen tanque de agua)

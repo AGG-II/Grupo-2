@@ -28,15 +28,19 @@ vector <- c(frecuencias1,frecuencias2,frecuencias3,frecuencias4)
 total <- length(datos1)
 proporciones <- vector / total * 100
 round(proporciones, 2)
-proporciones <- sort(proporciones, decreasing = TRUE)
+proporciones <- sort(proporciones, decreasing = FALSE)
+names(proporciones) = c("Garrafa", "Leña/Carbón", "No posee", "Electricidad")
+
+par(mar = c(5, 8, 4, 8))
 grafico3 <- barplot(proporciones, 
                     main = "TIPOS DE CALEFACCIÓN EN LAS VIVIENDAS EN BARRIOS POPULARES\nNORTE DE ARGENTINA, 2022",
-                    xlab = "Tipos de calefacción", 
-                    ylab = "Porcentaje de hogares",
-                    #horiz = TRUE,
-                    yaxt = "n",
+                    #ylab = "Tipos de calefacción", 
+                    xlab = "Porcentaje de hogares",
+                    horiz = TRUE,
+                    xaxt = "n",
                     las = 1,
                     col = "lightblue")
+title(ylab="Tipos de calefacción", line=6, cex.lab=1.2)
 grafico3 <-mtext("Fuente: Observatorio Villero, 2022",
                  side = 1,
                  line = 4,
@@ -44,6 +48,6 @@ grafico3 <-mtext("Fuente: Observatorio Villero, 2022",
                  adj = 0,
                  cex = NA)
 
-y_vals <- pretty(table(datos2))
-axis(2, at = seq(0, 50, by = 5), las = 1)
+x_vals <- pretty(table(datos2))
+axis(1, at = seq(0, 50, by = 5), las = 1)
 

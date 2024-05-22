@@ -47,4 +47,6 @@ medidasResumen2 <- summary(datos2)
 mediana2 <- medidasResumen2[3]
 ri2 <- medidasResumen2[5] - medidasResumen2[2]
 names(ri2) <- "Rango intercuartílico"
-        
+'''
+datos_filtrados <- datos2[datos2 > 5]
+porc <- length(datos_filtrados) * 100 / length(datos2)'''
